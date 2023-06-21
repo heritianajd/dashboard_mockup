@@ -1,0 +1,142 @@
+@font-face{
+    font-family: 'Epilogue';
+    src: url(font-familly/epilogue/static/Epilogue-Bold.ttf),
+    url(font-familly/epilogue/static/Epilogue-ExtraLight.ttf),
+    url(font-familly/epilogue/static/Epilogue-LightItalic.ttf),
+    url(font-familly/epilogue/static/Epilogue-Medium.ttf);
+
+}
+
+@font-face{
+    font-family: 'Inter';
+    src: url(font-familly/inter/static/Inter-SemiBold.ttf);
+}
+
+.registration-logo img{
+    position: relative;
+    top: 30px;
+    left: 40px;
+    width: 130px;
+    height: 42px;
+}
+
+body{
+    margin: 0;
+}
+
+.registration-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+}
+
+.registration-group img{
+    position: relative;
+    top: 78px!important;
+    width: 440px;
+    height: 511px;
+    width: 100%;
+}
+
+.registration-form{
+    background-color: white;
+    width: 385px;
+    height: 480px;
+    border-radius: 8px;
+    margin-top: 60px;
+}
+
+.registration-creation-account{
+    text-align: center;
+}
+
+.container_input{
+    padding: 20px 40px 0 40px;
+}
+
+.registration-form .button{
+    text-align: center;
+}
+
+.registration-social-media img{
+    width: 20px;
+    height: 20px;
+}
+
+.registration-social-media button{
+    background-color: rgb(192, 216, 214, 212, 211);
+    border: none;
+    padding: 4px 22px;
+    border-radius: 26px;
+    margin-top: 20px;
+}
+
+.registration-creation-account h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    font-family: 'Epilogue';
+}
+
+.registration-creation-account p{
+    font-size: 11px;
+    margin: 0;
+    font-family: 'Inter';
+    color: #9095A0FF;
+}
+
+.div_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.div_input input{
+    height: 35px;
+    font-size: 14px;
+    background: #F3F4F6FF;
+    border-radius: 22px;
+    border: none;
+    padding-left: 15px;
+    outline: none;
+}
+
+.div_input label{
+    font-size: 14px;
+    font-family: 'Inter';
+    color: rgb(98 94 94);
+}
+
+.registration-form .paragraphe{
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 13px;
+}
+
+.paragraphe p{
+    color: #323842FF;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.div_button_sign{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.div_button_sign button{
+    width: 100%;
+    padding: 12px 0;
+    color: #FFFFFFFF; 
+    background: #00BDD6FF;
+    border-radius: 26px;
+    border: none;
+    font-size: 15px;
+}
+
+.registration-form .paragraphe a{
+    color: #00BDD6FF;
+    font-size: 14px;
+    text-decoration: none;
+}
