@@ -12,51 +12,50 @@
     src: url(font-familly/inter/static/Inter-SemiBold.ttf);
 }
 
-.registration-logo img{
-    position: relative;
-    top: 30px;
-    left: 40px;
-    width: 130px;
-    height: 42px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    margin: 0;
+.registration-logo img{
+    padding: 41px 0 0 49px;
+    width: 173px; 
+    height: 54px; 
 }
 
 .registration-container{
     display: flex;
     justify-content: space-between;
-    max-width: 90%;
-    margin: auto;
+    margin-top: 30px;
+    max-width: 100%;
+    padding: 0 88px 0 72px;
 }
 
 .registration-group img{
-    position: relative;
-    top: 78px!important;
-    width: 440px;
-    height: 511px;
-    width: 100%;
+    width: 637px; 
+    height: 760px;
 }
 
-.registration-form{
+.registration-sign{
     background-color: white;
     width: 385px;
-    height: 480px;
+    height: fit-content;
     border-radius: 8px;
-    margin-top: 60px;
+    padding: 56px;
 }
 
 .registration-creation-account{
     text-align: center;
 }
 
-.container_input{
-    padding: 20px 40px 0 40px;
-}
-
 .registration-form .button{
     text-align: center;
+}
+
+.registration-social-media{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
 
 .registration-social-media img{
@@ -69,32 +68,29 @@ body{
     border: none;
     padding: 4px 22px;
     border-radius: 26px;
-    margin-top: 20px;
 }
 
 .registration-creation-account h1{
-    font-size: 20px;
-    margin-bottom: 5px;
-    margin-top: 40px;
+    font-size: 24px; 
+    margin-bottom: 2px;
     font-family: 'Epilogue';
 }
 
 .registration-creation-account p{
-    font-size: 11px;
-    margin: 0;
+    font-size: 12px;
     font-family: 'Inter';
     color: #9095A0FF;
 }
 
-.div_input{
+.registration-input{
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-.div_input input{
-    height: 35px;
-    font-size: 14px;
+.registration-input input{
+    height: 44px;
+    font-size: 16px; 
     background: #F3F4F6FF;
     border-radius: 22px;
     border: none;
@@ -102,13 +98,13 @@ body{
     outline: none;
 }
 
-.div_input label{
-    font-size: 14px;
+.registration-input label{
+    font-size: 16px; 
     font-family: 'Inter';
     color: rgb(98 94 94);
 }
 
-.registration-form .paragraphe{
+.paragraphe{
     text-align: center;
     font-family: 'Inter';
     font-size: 13px;
@@ -116,27 +112,33 @@ body{
 
 .paragraphe p{
     color: #323842FF;
-    line-height: 22px;
-    margin-top: 10px;
+    font-size: 14px; 
 }
 
-.div_button_sign{
+.registration-button-sign{
     text-align: center;
-    margin-top: 20px;
 }
 
-.div_button_sign button{
+.registration-button-sign button{
     width: 100%;
-    padding: 12px 0;
+    padding: 20px 0;
     color: #FFFFFFFF; 
     background: #00BDD6FF;
     border-radius: 26px;
     border: none;
-    font-size: 15px;
+    margin: 20px 0;
+    font-size: 18px;
 }
 
-.registration-form .paragraphe a{
+.paragraphe a{
     color: #00BDD6FF;
-    font-size: 14px;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1920px) {
+    
+}
+
+@media only screen and (max-width: 1440px) {
+    
 }
